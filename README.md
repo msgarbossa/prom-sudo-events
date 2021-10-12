@@ -28,7 +28,8 @@ pip3 install systemd-python
 The built-in web server is used.  The script has variables set so the http server listens on localhost:9090.
 
 ```bash
-./python prom-sudo-events.py
+. .venv/bin/activate
+./prom-sudo-events.py
 ```
 
 Test with curl:
