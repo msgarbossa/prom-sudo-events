@@ -14,6 +14,12 @@ For Ubuntu:
 sudo apt-get install build-essential libsystemd-dev
 ```
 
+For CentOS/RHEL:
+
+```bash
+sudo yum install systemd-devel gcc python3-devel
+```
+
 Setup python virtual environment and install python modules
 
 ```bash
