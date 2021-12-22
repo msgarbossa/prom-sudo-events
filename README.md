@@ -41,7 +41,7 @@ The built-in web server is used.  The script has variables set so the http serve
 Test with curl:
 
 ```
-$ curl localhost:9090
+$ curl http://localhost:9090
 ...
 # HELP sudo_total sudo success
 # TYPE sudo_total counter
